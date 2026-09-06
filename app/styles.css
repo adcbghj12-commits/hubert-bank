@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #07101f;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top, #153c6b 0%, #07101f 45%, #030711 100%);
+}
+
+.container {
+  max-width: 520px;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: 22px 16px 40px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 28px;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 900;
+  background: linear-gradient(135deg, #1677ff, #44d7ff);
+  box-shadow: 0 8px 30px rgba(0, 140, 255, 0.35);
+}
+
+.header h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.header p {
+  margin: 4px 0 0;
+  font-size: 13px;
+  color: #91a9c3;
+}
+
+.welcome {
+  margin-bottom: 16px;
+}
+
+.welcome p {
+  margin: 0;
+  color: #91a9c3;
+  font-size: 14px;
+}
+
+.welcome h1 {
+  margin: 5px 0 0;
+  font-size: 28px;
+}
+
+.balance-card {
+  padding: 24px;
+  border-radius: 24px;
+  background: linear-gradient(135deg, #1569ef, #17307d);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.45);
+}
+
+.balance-card p {
+  margin: 0;
+  color: #d7e9ff;
+  font-size: 14px;
+}
+
+.balance-card h3 {
+  margin: 8px 0;
+  font-size: 44px;
+  font-weight: 900;
+}
+
+.balance-card span {
+  font-size: 12px;
+  color: #c7dcff;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.buttons button {
+  border: 1px solid #28435f;
+  border-radius: 17px;
+  background: #0c1a2b;
+  color: white;
+  padding: 17px 10px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.panel {
+  background: #091625;
+  border: 1px solid #1c3149;
+  border-radius: 20px;
+  padding: 16px;
+}
+
+.panel h3 {
+  margin: 0 0 10px;
+}
+
+.transaction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 0;
+  border-top: 1px solid #17283b;
+}
+
+.transaction:first-of-type {
+  border-top: none;
+}
+
+.transaction b {
+  font-size: 14px;
+}
+
+.transaction p {
+  margin: 4px 0 0;
+  color: #8199b3;
+  font-size: 12px;
+}
+
+.plus {
+  color: #52e19a;
+}
+
+.minus {
+  color: #ff7189;
+}
+
+.warning {
+  margin-top: 16px;
+  padding: 14px;
+  border-radius: 15px;
+  background: #2b2512;
+  border: 1px solid #5f4d17;
+  color: #f4d675;
+  font-size: 12px;
+  line-height: 1.5;
+}
